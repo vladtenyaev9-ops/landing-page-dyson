@@ -1,0 +1,35 @@
+:root {
+  /* font-family */
+  --second-family: "NAMU pro", sans-serif;
+  --font-family:"OpenSans", sans-serif;
+
+  /* colors */
+  --main-color: #111;
+  --main-glow-color: #1111114d;
+  --accent-color: #c5358c;
+  --header-color: #ffffff;
+  --accent-glow-color: #ba3083;
+  --bg-color-1: #fff;
+  --bg-color-2: #F8F8F8;
+  --hero-bg-color: #DDDDDD;
+  --secondary-color: #000;
+  --disabled-color: #ababab;
+  --disabled-glow-color: #5d5d564d;
+  --shadow-color: #0000000d;
+  --overlay:linear-gradient(#1e1e1ee6, #000 1810%);
+  /* shadows */
+  --shadow-glow: 0 4px 41px 0 #0000000d;
+  /* container */
+  --container-width: 1360px;
+  --container-padding: 15px;
+
+  /* transitions */
+  --transition-time: 0.2s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}

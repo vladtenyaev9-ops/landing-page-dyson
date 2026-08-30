@@ -1,0 +1,115 @@
+.header {
+  background-color: #111;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (width <= 1265px) {
+  .header__container {
+    /* 768px - 1265px */
+    height: clamp(4.75rem, 3.398rem + 2.82vw, 5.625rem);
+  }
+}
+@media (width <= 768px) {
+  .header__container {
+    /* 390px- 768px */
+    height: clamp(2.938rem, 1.067rem + 7.67vw, 4.75rem);
+  }
+}
+
+@media (width <= 1265px) {
+  .header__logo {
+    /* 768px - 1265px */
+    width: clamp(142px, 4.915rem + 8.25vw, 183px);
+    height: clamp(60px, 2.108rem + 3.42vw, 77px);
+  }
+}
+@media (width <= 768px) {
+  .header__logo {
+    /* 390px- 768px */
+
+    width: clamp(94px, 2.78rem + 12.7vw, 142px);
+    height: clamp(39px, 1.083rem + 5.56vw, 60px);
+  }
+}
+.header__cart {
+  color: var(--header-color);
+  transition: color var(--transition-time);
+}
+@media (any-hover: hover) {
+  .header__cart:hover {
+    color: var(--accent-color);
+  }
+}
+.header__cart-icon {
+  stroke: currentColor;
+}
+
+@media (width <= 1265px) {
+  .header__cart {
+    /* 768px - 1265px */
+    width: clamp(31px, 1.455rem + 1.01vw, 36px);
+    height: clamp(31px, 1.455rem + 1.01vw, 36px);
+  }
+}
+@media (width <= 768px) {
+  .header__cart {
+    /* 390px - 768px */
+    width: clamp(1.5rem, 1.049rem + 1.85vw, 1.938rem);
+    height: clamp(1.5rem, 1.049rem + 1.85vw, 1.938rem);
+  }
+}
+.header__cart-group {
+  display: flex;
+  align-items: end;
+}
+.header__cart-product {
+  background-color: var(--header-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header__cart-quantity {
+  font-weight: 700;
+  text-align: center;
+  color: var(--main-color);
+  line-height: 1;
+}
+
+
+@media(width > 1200px){
+  .header__cart-product {
+  width: 18px;
+  height: 18px;
+}
+
+.header__cart-quantity {
+  font-size: 14px;
+}
+}
+@media(width <= 1200px){
+  .header__cart-product {
+  width: 16px;
+  height: 16px;
+}
+
+.header__cart-quantity {
+  font-size: 12px;
+}
+}
+@media(width <= 768px){
+  .header__cart-product {
+  width: 14px;
+  height: 14px;
+}
+
+.header__cart-quantity {
+  font-size: 12px;
+}
+}

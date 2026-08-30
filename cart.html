@@ -1,0 +1,542 @@
+<!doctype html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon" />
+    <script defer src="./js/index.js" type="module"></script>
+    <title>Dyson</title>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <button
+          class="header__burger-btn burger"
+          type="button"
+          aria-label="Открыть меню"
+        >
+          <svg class="burger__icons" width="50" height="50">
+            <use
+              class="burger__icon-menu"
+              href="./icons/sprite.svg#burger"
+            ></use>
+            <use
+              class="burger__icon-cross"
+              href="./icons/sprite.svg#cross"
+            ></use>
+          </svg>
+        </button>
+        <a href="/">
+          <img
+            class="header__logo"
+            src="./images/logo.svg"
+            width="183"
+            height="77"
+            alt="Логотип Dyson"
+          />
+        </a>
+
+        <nav
+          class="header__nav header__menu"
+          id="header__menu"
+          aria-label="Главное меню"
+        >
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#about">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#delivery-pay">Доставка и оплата</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#register">Регистрация продукта</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#service">Сервис</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#certificates"
+                >Сертификаты и лицензии</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__cart-group">
+          <svg class="header__cart" width="36" height="36">
+            <use class="header__cart-icon" href="./icons/sprite.svg#cart"></use>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <section class="section cart__section">
+      <div class="container">
+        <h2 class="cart__title title">Ваша корзина</h2>
+        <div class="cart__content">
+          <ul class="cart__list">
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__item-link">
+                <picture class="cart__comment-picture">
+                  <source srcset="./images/hero-img.webp" type="image/webp" />
+                  <img
+                    width="100"
+                    height="100"
+                    class="cart__comment-image"
+                    src="./images/hero-img.png"
+                    loading="lazy"
+                    alt="Фен Dyson"
+                  />
+                </picture>
+                <h3 class="cart__itme-name">Фен Dyson Supersonic HD07</h3>
+                <div class="cart__cart-quantity">
+                  <button class="cart__cart-minus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#minus"></use>
+                    </svg>
+                  </button>
+                  <p class="cart__cart-box-quantity">1</p>
+                  <button class="cart__cart-plus" type="button">
+                    <svg width="20" height="20">
+                      <use href="./icons/main-sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="cart__create-order">
+            <div class="cart__create-quantity">
+                <p>Количество</p>
+                <p>3</p>
+            </div>
+            <div class="cart__create-price">
+                <p>Итого</p>
+                <p>3.343.00</p>
+            </div>
+            <button class="cart__button button">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <img
+          class="footer__logo"
+          src="./images/logo.svg"
+          width="183"
+          height="77"
+          loading="lazy"
+          alt="Логотип Dyson"
+        />
+        <div class="footer__menu-wrapper">
+          <div class="footer__menu-list" style="grid-area: box-1">
+            <h2 class="footer__title">О компании</h2>
+            <div class="footer__menu">
+              <h3 class="footer__list-title">Магазин</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link"
+                    >Фены Dyson Supersonic</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link"
+                    >Стайлеры Dyson Airwrap</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link"
+                    >Выпрямители Dyson Corrale</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link">Пылесосы</a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link"
+                    >Климатическая техника</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link">Освещение</a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link">Аксессуары</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__menu" style="grid-area: box-2">
+            <h3 class="footer__list-title footer__subtitle">
+              Общая информация
+            </h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Новости</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Доставка</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Гарантия</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Оплата товара</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Свяжитесь с нами</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link"
+                  >Политика конфиденциальности</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Договор оферты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu footer__stock" style="grid-area: box-3">
+            <h3 class="footer__list-title footer__subtitle">Акции</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Подарочная коллекция </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link"
+                  >Эксклюзивные предложения</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu" style="grid-area: box-4">
+            <h3 class="footer__list-title footer__subtitle">
+              Отдел логистики:
+            </h3>
+            <a class="footer__phone" href="tel:+79998004554"
+              >+7 (999) 800-45-54</a
+            >
+            <div class="footer__socials">
+              <a href="#"
+                ><img
+                  class="footer__socials-icon"
+                  src="./icons/footer/tg-icon.svg"
+                  loading="lazy"
+                  alt="Телеграм"
+              /></a>
+              <a href="#"
+                ><img
+                  class="footer__socials-icon"
+                  src="./icons/footer/vk-icon.svg"
+                  loading="lazy"
+                  alt="Телеграм"
+              /></a>
+              <a href="#"
+                ><img
+                  class="footer__socials-icon"
+                  src="./icons/footer/youtube-icon.svg"
+                  loading="lazy"
+                  alt="Телеграм"
+              /></a>
+            </div>
+          </div>
+          <p class="footer__copyright">
+            Интернет-магазин <a href="#"> dysmarket.ru</a>, 2022 &copy Все права
+            защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
