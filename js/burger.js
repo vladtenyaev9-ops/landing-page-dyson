@@ -7,10 +7,10 @@ const createBurgerMenu = () => {
   menu.innerHTML = `
         <ul class="burger-menu__list">
             <li><a class="burger-menu__link" href="#about">О нас</a></li>
-            <li><a class="burger-menu__link" href="#delivery-pay">Доставка и оплата</a></li>
-            <li><a class="burger-menu__link" href="#register">Регистрация продукта</a></li>
-            <li><a class="burger-menu__link" href="#service">Сервис</a></li>
-            <li><a class="burger-menu__link" href="#certificates">Сертификаты и лицензии</a></li>
+            <li><a class="burger-menu__link" href="#delivery-pay">Преимущества</a></li>
+            <li><a class="burger-menu__link" href="#offers__section">Каталог</a></li>
+            <li><a class="burger-menu__link" href="#review">Отзывы</a></li>
+            <li><a class="burger-menu__link" href="#faq">FAQ</a></li>
         </ul>
     `;
   body.append(menu);
